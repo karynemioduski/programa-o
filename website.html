@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Carros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .car-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .car {
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .car img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .car h2 {
+            margin: 0;
+        }
+
+        .car p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carros à Venda</h1>
+    </header>
+    <div class="container">
+        <h2>Carros Disponíveis</h2>
+        <div class="car-list">
+            <div class="car">
+                <img src="car1.jpg" alt="Carro 1">
+                <h2>Carro 1</h2>
+                <p>Preço: $25,000</p>
+                <p>Ano: 2020</p>
+                <p>Cor: Prata</p>
+            </div>
+            <div class="car">
+                <img src="car2.jpg" alt="Carro 2">
+                <h2>Carro 2</h2>
+                <p>Preço: $30,000</p>
+                <p>Ano: 2021</p>
+                <p>Cor: Azul</p>
+            </div>
+            <div class="car">
+                <img src="car3.jpg" alt="Carro 3">
+                <h2>Carro 3</h2>
+                <p>Preço: $22,000</p>
+                <p>Ano: 2019</p>
+                <p>Cor: Vermelho</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
